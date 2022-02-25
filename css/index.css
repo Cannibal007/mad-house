@@ -310,6 +310,7 @@ footer{
 }
 
 @media only screen and (max-width: 1140px){
+
     .nav-list{
         flex-direction: column;
     }
@@ -368,5 +369,16 @@ footer{
     }
     .v-class-resp{
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    body{
+        width: 100vh;
+    }
+    .secondHalf{
+        margin-top: 100px;
+        padding-top: 90px;
+        
     }
 }
